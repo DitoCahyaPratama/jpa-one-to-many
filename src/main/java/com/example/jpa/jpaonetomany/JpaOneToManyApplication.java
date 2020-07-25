@@ -2,8 +2,10 @@ package com.example.jpa.jpaonetomany;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.jpaonetomany.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class JpaOneToManyApplication {
 
 	public static void main(String[] args) {
